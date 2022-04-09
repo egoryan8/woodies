@@ -1,18 +1,18 @@
 .page {
-    width: 1138px;
+    max-width: 1660px;
+    min-width: 1100px;
     font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: aliceblue;
 }
 
 .header {
     width: 100%;
     height: 800px;
     margin: -10px 0 0 0;
-    padding: 0;
     position: relative;
     display: flex;
     position: relative;
+    padding: 0 0 120px;
 }
 
 .logo {
@@ -108,7 +108,7 @@
 
 .about-us {
     position: relative;
-    padding: 120px 0;
+    height: 950px;
 }
 
 .section__heading {
@@ -149,7 +149,7 @@
 .about-us__bowls {
     position: absolute;
     left: 38px;
-    top: 340px;
+    top: 220px;
     width: 388px;
     height: 306px;
 }
@@ -158,7 +158,7 @@
     margin: 0;
     position: absolute;
     left: 504px;
-    top: 362px;
+    top: 242px;
     width: 448px;
 }
 
@@ -169,9 +169,28 @@
     margin: 0 0 16px 0;
 }
 
+.span-normal {
+    font-weight: normal;
+}
+
 .about-us__paragraph {
     line-height: 33px;
     font-size: 24px;
     font-weight: 600;
     margin: 0;
+}
+
+.about-us__spoons {
+    width: 287px;
+    height: 384px;
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+}
+
+.about-us__bottom-container {
+    position: absolute;
+    top: 693px;
+    left: 2px;
+    width: 648px;
 }
