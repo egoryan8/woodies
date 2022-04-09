@@ -1,0 +1,177 @@
+.page {
+    width: 1138px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    margin: -10px 0 0 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    width: 192px;
+    height: 33px;
+    background-image: url(./images/logo.svg);
+}
+
+.logo_place_header {
+    position: absolute;
+    left: 80px;
+    top: 23px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    height: 22px;
+    margin: 27px 0 0 380px;
+    padding: 0;
+    z-index: 2;
+}
+
+.nav-menu__item {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #222222BF;
+}
+
+.nav-menu__item:hover {
+    color: #DAA520;
+    font-weight: 800;
+}
+
+.header__pink-pic {
+    background-image: url(./images/Rectangle4.svg);
+    width: 370px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header__image {
+    background-image: url(./images/Simple-modern-balcony-small-coffee-table-living-room-small-apartment-sofa-side-table-simple-home-bedroom1.svg);
+    width: 568px;
+    height: 577px;
+    position: absolute;
+    right: 0;
+    top: 165px;
+    z-index: 2;
+}
+
+.header__text {
+    width: 504px;
+    height: 376px;
+    position: absolute;
+    left: 102px;
+    top: 217px;
+}
+
+.header__paragraph {
+    line-height: 49.1px;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.span-accent {
+    font-weight: bold;
+}
+
+.header__title {
+    margin: 16px 0;
+    line-height: 99px;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.header__button {
+    width: 175px;
+    height: 50px;
+}
+
+.content {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about-us {
+    position: relative;
+    padding: 120px 0;
+}
+
+.section__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98px;
+}
+
+.section__tag {
+    text-transform: uppercase;
+    color: #2222221A;
+    line-height: 99px;
+    font-size: 72px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.section__title {
+    min-width: 212px;
+    margin: 0;
+    line-height: 49;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card__background {
+    width: 280px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+.card__background_y {
+    background-image: url(./images/card_background1.svg);
+}
+
+.about-us__bowls {
+    position: absolute;
+    left: 38px;
+    top: 340px;
+    width: 388px;
+    height: 306px;
+}
+
+.about-us__text-container {
+    margin: 0;
+    position: absolute;
+    left: 504px;
+    top: 362px;
+    width: 448px;
+}
+
+.about-us__heading {
+    line-height: 49px;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+}
+
+.about-us__paragraph {
+    line-height: 33px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
