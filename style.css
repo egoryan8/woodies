@@ -1,5 +1,8 @@
 .page {
     min-width: 1100px;
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
     font-family: 'Nunito', sans-serif;
     background-color: aliceblue;
 }
@@ -11,7 +14,19 @@
     position: relative;
     display: flex;
     position: relative;
-    padding: 0 0 120px;
+    padding: 0;
+}
+
+.fixed-header {
+    width: 99.3%;
+    height: 70px;
+    background-color:aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    box-shadow: 0 0 5px #3E3F43;
+    border-radius: 5px;
 }
 
 .logo {
@@ -57,6 +72,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 5;
 }
 
 .header__image {
@@ -66,7 +82,7 @@
     position: absolute;
     right: 0;
     top: 165px;
-    z-index: 2;
+    z-index: 6;
 }
 
 .header__text {
@@ -112,6 +128,7 @@
 .about-us {
     position: relative;
     height: 950px;
+    padding-top: 120px;
 }
 
 .section__heading {
@@ -128,6 +145,7 @@
     font-size: 72px;
     font-weight: 800;
     margin: 0;
+    z-index: 6;
 }
 
 .section__title {
@@ -152,7 +170,7 @@
 .about-us__bowls {
     position: absolute;
     left: 38px;
-    top: 220px;
+    top: 340px;
     width: 388px;
     height: 306px;
 }
@@ -161,7 +179,7 @@
     margin: 0;
     position: absolute;
     left: 504px;
-    top: 242px;
+    top: 362px;
     width: 448px;
 }
 
@@ -189,17 +207,18 @@
     position: absolute;
     right: -100px;
     bottom: 0;
+    z-index: 6;
 }
 
 .about-us__bottom-container {
     position: absolute;
-    top: 693px;
+    top: 813px;
     left: 2px;
     width: 648px;
 }
 
 .how-it-works {
-    padding: 120px 0;
+    padding: 120px 0 0;
     display: flex;
     flex-direction: column;
     
@@ -213,6 +232,7 @@
     height: 177px;
     display: flex;
     align-self: center;
+    z-index: 3;
 }
 
 .card {
@@ -282,4 +302,113 @@
 .how-it-works__button:hover {
     transform: scale(1.1);
     transition: 1s;
+}
+
+.categories {
+    padding: 120px 0;
+}
+
+.cards-gap {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 280px);
+    gap: 56px;
+}
+
+.card-gap {
+    width: 280px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-gap_p {
+    background-image: url(./images/gap-pink.svg);
+}
+
+.card-gap_y {
+    background-image: url(./images/gap-yellow.svg);
+}
+
+.card-gap_b {
+    background-image: url(./images/gap-blue.svg);
+}
+
+.card-gap__title {
+    min-width: 57px;
+    height: 33px;
+    color: #3E3F43;
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.shop {
+    width: 123px;
+    height: 40px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    position: absolute;
+    right: 16px;
+    bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop__text {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3E3F43;
+}
+
+.shop:hover {
+    transform: scale(1.15);
+    border: 2px solid white;
+    transition: 1s;
+}
+
+.shop:hover .shop__text {
+    color: white;
+    transition: 1s;
+}
+
+.gap-image {
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.card-image_desk {
+    background-image: url(./images/desk.svg);
+    width: 246px;
+    height: 224px;
+}
+
+.card-image_chair {
+    background-image: url(./images/chair.svg);
+    width: 165px;
+    height: 235px;
+    margin: 0 auto;
+}
+
+.card-image_kitchenware {
+    background-image: url(./images/kitchenware.svg);
+    width: 181px;
+    height: 200px;
+    margin: 43px auto 0;
+}
+
+.card-image_shelf {
+    background-image: url(./images/shelf.svg);
+    width: 149px;
+    height: 235px;
+    margin: 0 auto;
+}
+
+.card-image_electronics {
+    background-image: url(./images/electronics.svg);
+    width: 235px;
+    height: 139px;
+    margin: 73px auto 0;
 }
