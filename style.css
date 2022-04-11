@@ -1,5 +1,4 @@
 .page {
-    max-width: 1660px;
     min-width: 1100px;
     font-family: 'Nunito', sans-serif;
     background-color: aliceblue;
@@ -76,6 +75,8 @@
     position: absolute;
     left: 102px;
     top: 217px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__paragraph {
@@ -90,6 +91,8 @@
 }
 
 .header__title {
+    width: 504px;
+    height: 196px;
     margin: 16px 0;
     line-height: 99px;
     font-size: 72px;
@@ -130,7 +133,7 @@
 .section__title {
     min-width: 212px;
     margin: 0;
-    line-height: 49;
+    line-height: 49px;
     font-size: 36px;
     font-weight: 700;
 }
@@ -193,4 +196,90 @@
     top: 693px;
     left: 2px;
     width: 648px;
+}
+
+.how-it-works {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cards {
+    margin: 64px 0 0;
+    padding: 0;
+    list-style: none;
+    width: 952px;
+    height: 177px;
+    display: flex;
+    align-self: center;
+}
+
+.card {
+    display: flex;
+    width: 238px;
+    flex-wrap: wrap;
+}
+
+.card-number {
+    margin: 16px 0 0 15px;
+    color: #F9BDBD40;
+    line-height: 131px;
+    font-size: 96px;
+    font-weight: 600;
+    width: 58px;
+    height: 131px;
+
+
+}
+
+.card-image {
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-self: center;
+}
+
+.card-image_1 {
+    background-image: url(./images/card_1.svg);
+}
+
+.card-image_2 {
+    background-image: url(./images/card_2.svg);
+}
+
+.card-image_3 {
+    background-image: url(./images/card_3.svg);
+}
+
+.card-image_4 {
+    background-image: url(./images/card_4.svg);
+}
+
+.card-text {
+    width: 238px;
+    height: 33px;
+    text-align: center;
+    margin: 0;
+    line-height: 33px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.how-it-works__button {
+    margin-top: 64px;
+    align-self: center;
+}
+
+.header__button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.how-it-works__button:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
