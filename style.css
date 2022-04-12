@@ -24,8 +24,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 4;
-    box-shadow: 0 0 5px #3E3F43;
+    z-index: 100;
+    box-shadow: 0 0 50px #424141;
     border-radius: 5px;
 }
 
