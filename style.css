@@ -1,6 +1,6 @@
 .page {
     min-width: 1100px;
-    max-width: 1920px;
+    max-width: 1660px;
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
@@ -411,4 +411,93 @@
     width: 235px;
     height: 139px;
     margin: 73px auto 0;
+}
+
+.footer {
+    width: 100%;
+    height: 455px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./images/footer-content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer__content {
+    margin: 232px 0 0 107px;
+    height: 138px;
+    min-width: 850px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    
+}
+
+.line {
+    background-image: url(./images/Line.png);
+    min-width: 850px;
+    height: 1px;
+    position: absolute;
+    top: 208px;
+    left: 108px;
+}
+
+.footer__img {
+    background-image: url(./images/footer.png);
+    background-size: cover;
+    margin: 0;
+    width: 508px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer-links__heading {
+    margin: 0;
+    line-height: 24.55px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.footer-links__link {
+    text-decoration: none;
+    color: #8D8D8D;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+
+.footer-contacts__p {
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#8D8D8D ;
+    margin: 16px 0 0 0;
+}
+
+.footer-link__item {
+    margin-top: 16px;
+}
+
+.footer__copyright {
+    width: 104px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8D8D8D;
+    position: absolute;
+    bottom: 16px;
+    left: 570px;
 }
